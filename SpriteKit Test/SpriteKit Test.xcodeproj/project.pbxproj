@@ -16,7 +16,7 @@
 		FC9C31A21952EDE100A0CE45 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9C31A11952EDE100A0CE45 /* BGMAppDelegate.m */; };
 		FC9C31A51952EDE100A0CE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9C31A31952EDE100A0CE45 /* Main.storyboard */; };
 		FC9C31A81952EDE100A0CE45 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9C31A71952EDE100A0CE45 /* BGMViewController.m */; };
-		FC9C31AB1952EDE100A0CE45 /* BGMMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9C31AA1952EDE100A0CE45 /* BGMMyScene.m */; };
+		FC9C31AB1952EDE100A0CE45 /* BGMLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9C31AA1952EDE100A0CE45 /* BGMLevelScene.m */; };
 		FC9C31AD1952EDE100A0CE45 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9C31AC1952EDE100A0CE45 /* Spaceship.png */; };
 		FC9C31AF1952EDE100A0CE45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9C31AE1952EDE100A0CE45 /* Images.xcassets */; };
 		FC9C31B61952EDE200A0CE45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9C31B51952EDE200A0CE45 /* XCTest.framework */; };
@@ -24,6 +24,9 @@
 		FC9C31B81952EDE200A0CE45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9C31931952EDE100A0CE45 /* UIKit.framework */; };
 		FC9C31C01952EDE200A0CE45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC9C31BE1952EDE200A0CE45 /* InfoPlist.strings */; };
 		FC9C31C21952EDE200A0CE45 /* SpriteKit_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9C31C11952EDE200A0CE45 /* SpriteKit_TestTests.m */; };
+		FCBDA0881963B8CC00E3DAF5 /* BGMPlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0871963B8CC00E3DAF5 /* BGMPlayerNode.m */; };
+		FCBDA08C1963EEC100E3DAF5 /* BGMEnemyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA08B1963EEC100E3DAF5 /* BGMEnemyNode.m */; };
+		FCBDA090196403AD00E3DAF5 /* BGMBulletNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA08F196403AD00E3DAF5 /* BGMBulletNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +54,8 @@
 		FC9C31A41952EDE100A0CE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC9C31A61952EDE100A0CE45 /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
 		FC9C31A71952EDE100A0CE45 /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
-		FC9C31A91952EDE100A0CE45 /* BGMMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMMyScene.h; sourceTree = "<group>"; };
-		FC9C31AA1952EDE100A0CE45 /* BGMMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMMyScene.m; sourceTree = "<group>"; };
+		FC9C31A91952EDE100A0CE45 /* BGMLevelScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMLevelScene.h; sourceTree = "<group>"; };
+		FC9C31AA1952EDE100A0CE45 /* BGMLevelScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMLevelScene.m; sourceTree = "<group>"; };
 		FC9C31AC1952EDE100A0CE45 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		FC9C31AE1952EDE100A0CE45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC9C31B41952EDE200A0CE45 /* SpriteKit TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpriteKit TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +63,14 @@
 		FC9C31BD1952EDE200A0CE45 /* SpriteKit TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKit TestTests-Info.plist"; sourceTree = "<group>"; };
 		FC9C31BF1952EDE200A0CE45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC9C31C11952EDE200A0CE45 /* SpriteKit_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKit_TestTests.m; sourceTree = "<group>"; };
+		FCBDA0861963B8CC00E3DAF5 /* BGMPlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerNode.h; sourceTree = "<group>"; };
+		FCBDA0871963B8CC00E3DAF5 /* BGMPlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMPlayerNode.m; sourceTree = "<group>"; };
+		FCBDA0891963DF6000E3DAF5 /* BGMGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMGeometry.h; sourceTree = "<group>"; };
+		FCBDA08A1963EEC100E3DAF5 /* BGMEnemyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMEnemyNode.h; sourceTree = "<group>"; };
+		FCBDA08B1963EEC100E3DAF5 /* BGMEnemyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMEnemyNode.m; sourceTree = "<group>"; };
+		FCBDA08D1964029000E3DAF5 /* BGMPhysicsCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPhysicsCategories.h; sourceTree = "<group>"; };
+		FCBDA08E196403AD00E3DAF5 /* BGMBulletNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMBulletNode.h; sourceTree = "<group>"; };
+		FCBDA08F196403AD00E3DAF5 /* BGMBulletNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMBulletNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +137,18 @@
 				FC9C31A31952EDE100A0CE45 /* Main.storyboard */,
 				FC9C31A61952EDE100A0CE45 /* BGMViewController.h */,
 				FC9C31A71952EDE100A0CE45 /* BGMViewController.m */,
-				FC9C31A91952EDE100A0CE45 /* BGMMyScene.h */,
-				FC9C31AA1952EDE100A0CE45 /* BGMMyScene.m */,
+				FC9C31A91952EDE100A0CE45 /* BGMLevelScene.h */,
+				FC9C31AA1952EDE100A0CE45 /* BGMLevelScene.m */,
 				FC9C31AC1952EDE100A0CE45 /* Spaceship.png */,
 				FC9C31AE1952EDE100A0CE45 /* Images.xcassets */,
+				FCBDA0861963B8CC00E3DAF5 /* BGMPlayerNode.h */,
+				FCBDA0871963B8CC00E3DAF5 /* BGMPlayerNode.m */,
+				FCBDA08A1963EEC100E3DAF5 /* BGMEnemyNode.h */,
+				FCBDA08B1963EEC100E3DAF5 /* BGMEnemyNode.m */,
+				FCBDA08E196403AD00E3DAF5 /* BGMBulletNode.h */,
+				FCBDA08F196403AD00E3DAF5 /* BGMBulletNode.m */,
+				FCBDA0891963DF6000E3DAF5 /* BGMGeometry.h */,
+				FCBDA08D1964029000E3DAF5 /* BGMPhysicsCategories.h */,
 				FC9C31981952EDE100A0CE45 /* Supporting Files */,
 			);
 			path = "SpriteKit Test";
@@ -264,9 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC9C319E1952EDE100A0CE45 /* main.m in Sources */,
-				FC9C31AB1952EDE100A0CE45 /* BGMMyScene.m in Sources */,
+				FC9C31AB1952EDE100A0CE45 /* BGMLevelScene.m in Sources */,
 				FC9C31A21952EDE100A0CE45 /* BGMAppDelegate.m in Sources */,
 				FC9C31A81952EDE100A0CE45 /* BGMViewController.m in Sources */,
+				FCBDA090196403AD00E3DAF5 /* BGMBulletNode.m in Sources */,
+				FCBDA0881963B8CC00E3DAF5 /* BGMPlayerNode.m in Sources */,
+				FCBDA08C1963EEC100E3DAF5 /* BGMEnemyNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +495,7 @@
 				FC9C31C71952EDE200A0CE45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC9C31C81952EDE200A0CE45 /* Build configuration list for PBXNativeTarget "SpriteKit TestTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +504,7 @@
 				FC9C31CA1952EDE200A0CE45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

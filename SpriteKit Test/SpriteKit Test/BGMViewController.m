@@ -7,7 +7,7 @@
 //
 
 #import "BGMViewController.h"
-#import "BGMMyScene.h"
+#import "BGMLevelScene.h"
 
 @implementation BGMViewController
 
@@ -21,7 +21,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [BGMMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [BGMLevelScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
@@ -41,6 +41,11 @@
         return UIInterfaceOrientationMaskAll;
     }
 }
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 
 - (void)didReceiveMemoryWarning
 {
